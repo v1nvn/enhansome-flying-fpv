@@ -147,7 +147,7 @@ Commercial LiPo battery packs are common in RC, but can be replaced with custom 
 Usually brushless DC motors (BLDC) are used for their power and precision. They require Electronic Speed Controller (ESC) per motor.
 
 * [BLheli\_S](https://github.com/bitdump/BLHeli) ⭐ 2,193 | 🐛 411 | 🌐 Assembly | 📅 2025-08-21 - Popular Firmware for ESCs with fine-grained control.
-* [AM32-MultiRotor-ESC-FW](https://github.com/am32-firmware/AM32) ⭐ 767 | 🐛 105 | 🌐 C | 📅 2026-03-04 - DSHOT, telemetry, 2024
+* [AM32-MultiRotor-ESC-FW](https://github.com/am32-firmware/AM32) ⭐ 768 | 🐛 105 | 🌐 C | 📅 2026-03-04 - DSHOT, telemetry, 2024
 * [BlueJay](https://github.com/mathiasvr/bluejay) ⭐ 547 | 🐛 23 | 🌐 Assembly | 📅 2022-08-31 - BLheli fork, Digital ESC firmware for controlling brushless motors. More features like custom melodies. Since 2020.
 * [ESC Configurator](https://github.com/stylesuxx/esc-configurator) ⭐ 219 | 🐛 39 | 🌐 JavaScript | 📅 2026-03-03 - Web app to setup your BLHeli / Bluejay ESC.
 * [MESC FOC ESC](https://github.com/davidmolony/MESC_FOC_ESC) ⭐ 49 | 🐛 1 | 📅 2021-04-02 - Open Hardware and Firmware for STM32 basrd ESC.
@@ -157,10 +157,10 @@ Usually brushless DC motors (BLDC) are used for their power and precision. They 
 
 Modern autopilot software require STM32 based boards with F4/F7 chip generation and usually no longer support legacy boards like NAZE32, CC3D, ArduPilot, etc. Most projects are base on Baseflight / Cleanflight firmware and Desktop Configurator.
 
-* [betaflight](https://github.com/betaflight/betaflight) ⭐ 10,670 | 🐛 304 | 🌐 C | 📅 2026-03-07 - Focus on racing and agility for wings and copters.
-* [CleanFlight](https://github.com/cleanflight/cleanflight) ⭐ 2,716 | 🐛 1 | 🌐 C | 📅 2023-10-20 - Legacy fork of baseflight , stall.
+* [betaflight](https://github.com/betaflight/betaflight) ⭐ 10,675 | 🐛 304 | 🌐 C | 📅 2026-03-08 - Focus on racing and agility for wings and copters.
+* [CleanFlight](https://github.com/cleanflight/cleanflight) ⭐ 2,717 | 🐛 1 | 🌐 C | 📅 2023-10-20 - Legacy fork of baseflight , stall.
 * [Paparazzi UAV](https://github.com/paparazzi/paparazzi) ⭐ 1,660 | 🐛 70 | 🌐 C | 📅 2026-03-06 - ?.
-* [dRehmflight](https://github.com/nickrehm/dRehmFlight) ⭐ 1,350 | 🐛 6 | 🌐 C++ | 📅 2025-01-20 - Dedicated to VTOLs and it's transformation during flight process, Teensy Boards only.
+* [dRehmflight](https://github.com/nickrehm/dRehmFlight) ⭐ 1,351 | 🐛 6 | 🌐 C++ | 📅 2025-01-20 - Dedicated to VTOLs and it's transformation during flight process, Teensy Boards only.
 * [BaseFlight](https://github.com/multiwii/baseflight) ⭐ 522 | 🐛 23 | 🌐 C | 📅 2016-01-18 - Legacy and oldest FW of the days of Wii gyro hacks and 8bit, stall.
 * [EmuFlight](https://github.com/emuflight/EmuFlight) ⭐ 489 | 🐛 59 | 🌐 C | 📅 2025-10-24 - Focus on modern algorithms.
 * [madflight](https://github.com/qqqlab/madflight) ⭐ 393 | 🐛 3 | 🌐 C | 📅 2026-03-07 - For Arduino based target boards, different sensors supported, 2024
@@ -179,7 +179,7 @@ Modern autopilot software require STM32 based boards with F4/F7 chip generation 
 Radio control transmitters (RC TX, your side) support extension bays with the [JR / JR lite formfactor](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module/blob/master/docs/Module_BG_4-in-1.md) ⭐ 1,836 | 🐛 114 | 🌐 C++ | 📅 2025-09-26 and serial interfaces to adapt to different radio protocols. See also Ground station.
 Most receivers (RX, drone side) support standard serial protocols like Crossfire (CSRF) to talk with the FC.
 
-* [EdgeTX](https://github.com/EdgeTX/edgetx) ⭐ 2,186 | 🐛 748 | 🌐 C | 📅 2026-03-06 - Successor of OpenTX under active development.
+* [EdgeTX](https://github.com/EdgeTX/edgetx) ⭐ 2,188 | 🐛 750 | 🌐 C | 📅 2026-03-08 - Successor of OpenTX under active development.
 
 * [OpenTX](https://github.com/opentx/opentx) ⭐ 2,175 | 🐛 296 | 🌐 C++ | 📅 2025-12-19 - Firmware for popular handtransmitters including Desktop manager and sound packs.
 
@@ -211,10 +211,10 @@ Most receivers (RX, drone side) support standard serial protocols like Crossfire
 
 Hardware and firmware to establish custom radio links. Nowadays usually a bidirectional link, so pure TX / RX side.
 
-* [ExpressLRS](https://github.com/ExpressLRS/ExpressLRS) ⭐ 4,763 | 🐛 61 | 🌐 C | 📅 2026-03-06 - ELRS for long range or better latency. support. flashing some existing hardware, but also provide commercial modules for 868/915 MHz or 2.4 / 5.8 GHz.
-  * [ELRS Airport Firmware](https://github.com/ExpressLRS/ExpressLRS/pull/1904) ⭐ 4,763 | 🐛 61 | 🌐 C | 📅 2026-03-06 - 2 way link for more complex telemetry downlink.
+* [ExpressLRS](https://github.com/ExpressLRS/ExpressLRS) ⭐ 4,766 | 🐛 56 | 🌐 C | 📅 2026-03-08 - ELRS for long range or better latency. support. flashing some existing hardware, but also provide commercial modules for 868/915 MHz or 2.4 / 5.8 GHz.
+  * [ELRS Airport Firmware](https://github.com/ExpressLRS/ExpressLRS/pull/1904) ⭐ 4,766 | 🐛 56 | 🌐 C | 📅 2026-03-08 - 2 way link for more complex telemetry downlink.
 * [Multi Module](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module) ⭐ 1,836 | 🐛 114 | 🌐 C++ | 📅 2025-09-26 - Supports different protocols like FrSky, FlySky, Walkera, Futaba, ... .
-* [mLRS](https://github.com/olliw42/mLRS) ⭐ 523 | 🐛 26 | 🌐 C | 📅 2026-03-07 - Mavlink compatible LRS.
+* [mLRS](https://github.com/olliw42/mLRS) ⭐ 523 | 🐛 26 | 🌐 C | 📅 2026-03-08 - Mavlink compatible LRS.
 * [openLRSng](https://github.com/openLRSng/openLRSng) ⭐ 288 | 🐛 45 | 🌐 C | 📅 2018-11-22 - Next generation of OpenLRS, stall since 2018.
 * [Raven LRS](https://github.com/RavenLRS/raven) ⭐ 171 | 🐛 9 | 🌐 C | 📅 2020-06-04 - Lora based, 2019.
 * [OpenSky](https://fishpepper.de/projects/opensky/) - Alternative firmware for FrSky modules, 2016.
@@ -224,7 +224,7 @@ Hardware and firmware to establish custom radio links. Nowadays usually a bidire
 
 Videotransmitter (VTX) are analog or digital radio transmitter on your drone, which send usually a videostream of your front camera (first person view - FPV) but can also transmit arbitrary information or establish a somewhat regular bidirectional link between the drone and a groundstation which also offers control uplink etc. See also Ground station.
 
-* [OpenHD](https://github.com/OpenHD/Open.HD) ⭐ 2,313 | 🐛 27 | 🌐 C++ | 📅 2026-03-05 - Use 2.4 / 5.8 GHz wifi hardware and SBCs on air and groundside to provide a video and telemetry downlink and an optional control uplink. Try to develop a more efficient dedicated hardware board. [Compare different open digital links](https://openhd.gitbook.io/open-hd/general/openhd-vs-alternatives).
+* [OpenHD](https://github.com/OpenHD/Open.HD) ⭐ 2,314 | 🐛 27 | 🌐 C++ | 📅 2026-03-05 - Use 2.4 / 5.8 GHz wifi hardware and SBCs on air and groundside to provide a video and telemetry downlink and an optional control uplink. Try to develop a more efficient dedicated hardware board. [Compare different open digital links](https://openhd.gitbook.io/open-hd/general/openhd-vs-alternatives).
 * [Wifibroadcast NG](https://github.com/svpcom/wifibroadcast) ⭐ 1,403 | 🐛 22 | 🌐 Python | 📅 2026-02-26 - Use 2.4 / 5.8 GHz wifi hardware and RPIs to provide a video and telemetry downlink.
 * [DroneBridge](https://github.com/DroneBridge/DroneBridge) ⭐ 902 | 🐛 17 | 🌐 C | 📅 2022-01-07 - Use 2.4 GHz wifi hardware and RPIs, ESP32 and Android App for bidirectional link, [Comparison](https://dronebridge.gitbook.io/docs/comparison) to the other protocols here.
 * [EZ Wifibroadcast](https://github.com/rodizio1/EZ-WifiBroadcast) ⭐ 892 | 🐛 62 | 🌐 C | 📅 2024-01-31 - Oldest and first wifi based VTX setup.
@@ -232,7 +232,7 @@ Videotransmitter (VTX) are analog or digital radio transmitter on your drone, wh
 * [wtfos](https://github.com/fpv-wtf/wtfos) ⭐ 312 | 🐛 37 | 🌐 Shell | 📅 2025-04-13 - Rooting and mod DJI FPV sender and receiver.
 * [hx-esp32-cam-fpv](https://github.com/RomanLut/hx-esp32-cam-fpv) ⭐ 181 | 🐛 9 | 🌐 C++ | 📅 2026-02-16- Cheap ESPcam boards transimitting MJPEG frames.
 * [DigiView-SBC](https://github.com/fpvout/DigiView-SBC) ⭐ 109 | 🐛 10 | 🌐 CSS | 📅 2021-06-23 - Receive DJI HD signal, alpha 2021.
-* [wfb-ng on OpenIPC](https://github.com/OpenIPC/sandbox-fpv) ⭐ 65 | 🐛 0 | 🌐 C | 📅 2024-01-10 - Wifibroadcast NG on OpenIPC compatible CCTV modules, capable of 120fps or 4k video feeds with telemetry. Existing commercial kits from various vendors (aka. EMAX Wyvern Link, Runcam Wifilink).
+* [wfb-ng on OpenIPC](https://github.com/OpenIPC/sandbox-fpv) ⭐ 66 | 🐛 0 | 🌐 C | 📅 2024-01-10 - Wifibroadcast NG on OpenIPC compatible CCTV modules, capable of 120fps or 4k video feeds with telemetry. Existing commercial kits from various vendors (aka. EMAX Wyvern Link, Runcam Wifilink).
 * [VTX Power Measure](https://github.com/mrRobot62/vtx_power_measure) ⭐ 8 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2022-11-29 - Python scripting the Immersion RF-Meter V2.
 * [RubyFPV](https://rubyfpv.com) - Use 2.4 / 5.8 GHz wifi hardware and RPIs to provide a video and telemetry downlink and an optional control uplink. No source provided but plugin system.
 
@@ -240,8 +240,8 @@ Videotransmitter (VTX) are analog or digital radio transmitter on your drone, wh
 
 Cameras feed the onboard videotransmitter for downlink or record as DVR with higher quality. See also VTX for custom systems which allow you different camera setups.
 
-* [Gyroflow](https://github.com/gyroflow/gyroflow) ⭐ 8,295 | 🐛 77 | 🌐 Rust | 📅 2026-03-06 - Use IMU sensor data to smooth HD video recordings.
-* [opentrack](https://github.com/opentrack/opentrack) ⭐ 4,664 | 🐛 549 | 🌐 C++ | 📅 2026-03-05 - Use integrated trackers of FPV googles or VR headsets as input.
+* [Gyroflow](https://github.com/gyroflow/gyroflow) ⭐ 8,300 | 🐛 77 | 🌐 Rust | 📅 2026-03-06 - Use IMU sensor data to smooth HD video recordings.
+* [opentrack](https://github.com/opentrack/opentrack) ⭐ 4,664 | 🐛 548 | 🌐 C++ | 📅 2026-03-05 - Use integrated trackers of FPV googles or VR headsets as input.
 * [STORM32BGC](https://github.com/olliw42/storm32bgc) ⭐ 717 | 🐛 3 | 🌐 C++ | 📅 2025-11-30 - Firmware and brushless gimbal controller.
 * [RC Headtracker](https://github.com/dlktdr/HeadTracker) ⭐ 452 | 🐛 55 | 🌐 C++ | 📅 2025-12-08 - Turn camera gimbal when you turn your googles. Based on Arduino and Bluetooth.
 * [TetraPI](https://github.com/bluegreen-labs/TetraPi) ⭐ 37 | 🐛 0 | 📅 2021-05-26 - Multispectra RPI based camera module.
@@ -293,15 +293,15 @@ This is more professional equipment to do beyond VLOS flights and not needed for
 
 Sensor values and control information are shared via common serial protocols which can be recorded onboard (blackbox) on internal SD cards at FC, or transferred to your TX handset or Groundstation. Useful to find lost drones, as well as debug and tune PID and flight behavior
 
-* [MAVlink](https://github.com/mavlink/mavlink) ⭐ 2,187 | 🐛 149 | 🌐 Python | 📅 2026-03-05 - Modern extensible protocol from hobbiests ... commercial UAV.
-* [betaflight-tx-lua-scripts](https://github.com/betaflight/betaflight-tx-lua-scripts) ⭐ 690 | 🐛 10 | 🌐 Lua | 📅 2026-01-23 - Script to show telemetry and control e.g. CAM, VTX settings.
+* [MAVlink](https://github.com/mavlink/mavlink) ⭐ 2,188 | 🐛 147 | 🌐 Python | 📅 2026-03-05 - Modern extensible protocol from hobbiests ... commercial UAV.
+* [betaflight-tx-lua-scripts](https://github.com/betaflight/betaflight-tx-lua-scripts) ⭐ 691 | 🐛 10 | 🌐 Lua | 📅 2026-01-23 - Script to show telemetry and control e.g. CAM, VTX settings.
 * [OpenLog](https://github.com/sparkfun/OpenLog) ⭐ 591 | 🐛 22 | 🌐 C++ | 📅 2022-06-09 - With [blackbox](https://github.com/thenickdude/blackbox/) ⭐ 19 | 🐛 0 | 🌐 C | 📅 2015-01-14 firmware for blackbox data recorder (today usually part of main FC).
 * [PID-Analyzer](https://github.com/Plasmatree/PID-Analyzer) ⭐ 416 | 🐛 33 | 🌐 Python | 📅 2021-03-04 - Read blackbox and tune PID control variables.
 * [LuaTelemetry](https://github.com/teckel12/LuaTelemetry) ⭐ 304 | 🐛 5 | 🌐 Lua | 📅 2021-10-03 - OpenTX / EdgeTX script that renders live cockpit and map from telemetry datastream.
 * [UAVLogViewer](https://github.com/ardupilot/uavlogviewer) ⭐ 212 | 🐛 138 | 🌐 JavaScript | 📅 2026-02-25 - Web application for Ardupilot logs.
 * [openXsensor](https://github.com/openXsensor/openXsensor) ⭐ 185 | 🐛 37 | 🌐 C | 📅 2023-07-30 - Convert and alter telemetry protocols.
 * [YAMSPy](https://github.com/thecognifly/YAMSPy) ⭐ 121 | 🐛 12 | 🌐 Python | 📅 2024-04-08 - Read MSP serial protocol with Python.
-* [INAV blackbox viewer](https://github.com/iNavFlight/blackbox-log-viewer) ⭐ 46 | 🐛 19 | 🌐 JavaScript | 📅 2024-08-24 - Render sensor / motor values as video overlay OSD.
+* [INAV blackbox viewer](https://github.com/iNavFlight/blackbox-log-viewer) ⭐ 46 | 🐛 20 | 🌐 JavaScript | 📅 2024-08-24 - Render sensor / motor values as video overlay OSD.
 * [otxtelemetry](https://github.com/olliw42/otxtelemetry) ⭐ 39 | 🐛 0 | 🌐 Lua | 📅 2023-12-26 - OpenTX / EdgeTX script to add Mavlink support.
 * [flightlog2x](https://github.com/stronnag/bbl2kml) ⚠️ Archived - Convert blackbox logs of INAV, OpenTX, ... to CSV, GPX, KML and render tracks and trajectory with different performance styles, separate [GUI](https://github.com/stronnag/fl2xui) ⚠️ Archived.
 * [INAV blackbox tools](https://github.com/iNavFlight/blackbox-tools) ⭐ 25 | 🐛 2 | 🌐 C | 📅 2026-01-17 - Convert to CSV timeseries files or as visual OSD overlay.
@@ -313,7 +313,7 @@ Sensor values and control information are shared via common serial protocols whi
 
 Ground Control Stations (GCS) on laptops / tablets allow better overview of flight parameters and position for mission control during long range / time flights. Also see [Ardupilot.org - Choosing GCS](https://ardupilot.org/copter/docs/common-choosing-a-ground-station.html).
 
-* [QGroundControl](https://github.com/mavlink/qgroundcontrol) ⭐ 4,394 | 🐛 1,061 | 🌐 C++ | 📅 2026-03-08 - Mavlink, Desktop and mobile.
+* [QGroundControl](https://github.com/mavlink/qgroundcontrol) ⭐ 4,395 | 🐛 1,060 | 🌐 C++ | 📅 2026-03-09 - Mavlink, Desktop and mobile.
 * [mwptools](https://github.com/stronnag/mwptools) ⚠️ Archived - Waypoint mission planner esp. for INAV including INAV Radar and ADS-B sources.
 * [Dreka GCS](https://github.com/Midgrad/Dreka) ⭐ 62 | 🐛 12 | 🌐 QML | 📅 2022-10-27 - A new GCS (currently limited but more modern look & feel).
 * [BulletGCSS](https://github.com/danarrib/BulletGCSS) ⭐ 56 | 🐛 14 | 🌐 JavaScript | 📅 2025-11-15 - Uses GSM and MQTT for extra long range links.
@@ -326,7 +326,7 @@ Ground Control Stations (GCS) on laptops / tablets allow better overview of flig
 Your FC is focused on realtime control for maneuvers, while additional computers add ressources for more complex data processing, see also [Arudpilot.org - Companion Computers](https://ardupilot.org/dev/docs/companion-computers.html) and digital VTX systems above.
 
 * [ROS](https://github.com/ros/ros) ⚠️ Archived - Robot Operating System, to handle more complex and interactive flights.
-* [DroneKit](https://github.com/dronekit/dronekit-python) ⭐ 1,866 | 🐛 438 | 🌐 Python | 📅 2024-05-30 - Multi platform integration ecosystem including Mavlink radio link.
+* [DroneKit](https://github.com/dronekit/dronekit-python) ⭐ 1,867 | 🐛 438 | 🌐 Python | 📅 2024-05-30 - Multi platform integration ecosystem including Mavlink radio link.
 * [öchìn CM4](https://github.com/ochin-space/ochin-CM4) ⭐ 97 | 🐛 0 | 🌐 Shell | 📅 2025-05-09 - RPI Compute Module carrier board dedicated for FC
 * [APsync](https://ardupilot.org/dev/docs/apsync-intro.html) - Mavlink focused OS for different SBCs.
 * [RPanion](https://www.docs.rpanion.com/software/rpanion-server) - Mavlink focused RPI image.
@@ -335,9 +335,9 @@ Your FC is focused on realtime control for maneuvers, while additional computers
 
 CV is on the processing of what you see at the UAV live image or recordings. This is about aerial mapping, or machine learning powered flight planning. See also [UAV Mapping Guidelines](https://uav-guidelines.openaerialmap.org/).
 
-* [Fast-Planner](https://github.com/HKUST-Aerial-Robotics/Fast-Planner) ⭐ 3,204 | 🐛 84 | 🌐 C++ | 📅 2024-10-24 - Learn drones to avoid obstacles on the course.
+* [Fast-Planner](https://github.com/HKUST-Aerial-Robotics/Fast-Planner) ⭐ 3,206 | 🐛 84 | 🌐 C++ | 📅 2024-10-24 - Learn drones to avoid obstacles on the course.
 * [Faster](https://github.com/mit-acl/faster) ⭐ 1,198 | 🐛 15 | 🌐 C++ | 📅 2025-03-10 - ML let drones learn to avoid obstacles.
-* [Anti-UAV](https://github.com/ZhaoJ9014/Anti-UAV) ⭐ 675 | 🐛 29 | 🌐 Python | 📅 2025-05-07 - ML detect quadcopters within IR / RGB videos
+* [Anti-UAV](https://github.com/ZhaoJ9014/Anti-UAV) ⭐ 676 | 🐛 29 | 🌐 Python | 📅 2025-05-07 - ML detect quadcopters within IR / RGB videos
 * [OpenAerialMap](https://github.com/hotosm/OpenAerialMap/) ⭐ 295 | 🐛 36 | 🌐 Jupyter Notebook | 📅 2026-03-03 - Share Drone shots for disaster response etc.
 * [DroneDB](https://github.com/DroneDB/DroneDB) ⭐ 262 | 🐛 25 | 🌐 C++ | 📅 2026-03-06 - Store and archive drone shots and aerial imagery.
 * [Fire Detection UAV](https://github.com/AlirezaShamsoshoara/Fire-Detection-UAV-Aerial-Image-Classification-Segmentation-UnmannedAerialVehicle) ⭐ 240 | 🐛 7 | 🌐 Python | 📅 2021-05-06 - ML learn drones to spot fire.
@@ -376,9 +376,9 @@ Before you damage any hardware you can learn to avoid common pitfalls and train 
 
 The most consumer friendly trainer simulators are commercial, but available for Linux, macOS as well ([Freerider Recarged](https://fpv-freerider.itch.io/fpv-freerider-recharged), [Liftoff](https://store.steampowered.com/app/410340/Liftoff_FPV_Drone_Racing/), [DRL Sim](https://thedroneracingleague.com/drlsim/), [Velocidrone](https://www.velocidrone.com/).
 
-* [AirSim](https://github.com/microsoft/AirSim) ⭐ 17,993 | 🐛 727 | 🌐 C++ | 📅 2025-05-15 - By Microsoft for algorithm testing.
-* [JSBsim](https://github.com/JSBSim-Team/jsbsim) ⭐ 1,931 | 🐛 45 | 🌐 C++ | 📅 2026-03-07 - With bindings to Python, Matlab.
-* [GAZEBOsim](https://github.com/gazebosim/gz-sim) ⭐ 1,231 | 🐛 533 | 🌐 C++ | 📅 2026-03-07 - Multi robot.
+* [AirSim](https://github.com/microsoft/AirSim) ⭐ 17,995 | 🐛 727 | 🌐 C++ | 📅 2025-05-15 - By Microsoft for algorithm testing.
+* [JSBsim](https://github.com/JSBSim-Team/jsbsim) ⭐ 1,934 | 🐛 46 | 🌐 C++ | 📅 2026-03-07 - With bindings to Python, Matlab.
+* [GAZEBOsim](https://github.com/gazebosim/gz-sim) ⭐ 1,233 | 🐛 535 | 🌐 C++ | 📅 2026-03-07 - Multi robot.
 * [jMAVSim](https://github.com/PX4/jMAVSim) ⭐ 102 | 🐛 16 | 🌐 Java | 📅 2026-01-29 - For Mavlink.
 * [Picasim](https://github.com/Rowlhouse/PicaSim) ⭐ 19 | 🐛 2 | 🌐 C++ | 📅 2026-02-18 - For rc planes, closed source, sucessor of SSS.
 * [crrcsim](https://sourceforge.net/projects/crrcsim/) - For rc airplanes, 2018.
@@ -403,7 +403,7 @@ Malfunction can have dramatic consequences, as well as your drone can cause mass
 
 We share the airspace with other pilots. RC copters and planes are hard to spot, so it is recommend to share your position via transponder systems. This allows also tracking of illegal maneuvers.
 
-* [SoftRF](origin/hhttps:/github.com/lyusupov/SoftRF/wiki/Nano-Edition) ⭐ 958 | 🐛 0 | 🌐 C | 📅 2026-03-07 - Nano edition, supports also FLARM and more.
+* [SoftRF](origin/hhttps:/github.com/lyusupov/SoftRF/wiki/Nano-Edition) ⭐ 959 | 🐛 0 | 🌐 C | 📅 2026-03-07 - Nano edition, supports also FLARM and more.
 * [Stratux](https://github.com/stratux/stratux) ⭐ 265 | 🐛 44 | 🌐 C | 📅 2026-03-02 - Share position and course via different radio transmitters.
 * ADS-B transmitters of airplanes can be received using software defined radios can be realized using cheap USB DVB-T receivers. Can be integrated via radar extensions like [mwp-radar-view](https://github.com/stronnag/mwptools/wiki/mwp-Radar-View) ⚠️ Archived, [Ardupilot ADS-B receiver](https://ardupilot.org/copter/docs/common-ads-b-receiver.html) or in OpenHD. Is part of Mavlink protocol and shows up on most GCS.  Can also be viewed online like [adsb-exchange.com](https://globe.adsbexchange.com/).
 * [ArduPilot RemoteID Transmitter](https://github.com/ArduPilot/ArduRemoteID) ⭐ 182 | 🐛 37 | 🌐 C++ | 📅 2025-07-04 - FCC RemoteID with Mavlink and DroneCAN integration.
@@ -420,8 +420,8 @@ Radio links per se are unsafe and can easily be jammed.
 
 * [Drone-ID Receiver for DJI OcuSync 2.0](https://github.com/RUB-SysSec/DroneSecurity) ⭐ 1,219 | 🐛 22 | 🌐 Python | 📅 2023-03-10 - Decoding DJI radio transmissions including DroneID and pilot location with SDR in python
 * [RemoteID Spammer/Spoofer](https://github.com/jjshoots/RemoteIDSpoofer) ⭐ 505 | 🐛 2 | 🌐 C | 📅 2025-09-26 - An ESP8266/NodeMCU Drone RemoteID Spoofer
-* [RFUAV](https://github.com/kitoweeknd/RFUAV) ⭐ 353 | 🐛 16 | 🌐 Python | 📅 2025-12-09 - Radio based drone detection and signal fingerprinting.
-* [Drone Remote ID Monitoring System](https://github.com/cyber-defence-campus/RemoteIDReceiver) ⭐ 241 | 🐛 5 | 🌐 Python | 📅 2025-12-01 - Webfrontend to map DJI drones using their RemoteID.
+* [RFUAV](https://github.com/kitoweeknd/RFUAV) ⭐ 355 | 🐛 16 | 🌐 Python | 📅 2025-12-09 - Radio based drone detection and signal fingerprinting.
+* [Drone Remote ID Monitoring System](https://github.com/cyber-defence-campus/RemoteIDReceiver) ⭐ 242 | 🐛 5 | 🌐 Python | 📅 2026-03-08 - Webfrontend to map DJI drones using their RemoteID.
 * [Robot Vulnerability Database](https://github.com/aliasrobotics/RVD) ⭐ 221 | 🐛 228 | 🌐 Python | 📅 2024-06-24 - CVEs for semi-autonomous machines.
 * [WTF WJI, UAV CTF?](https://ftp.fau.de/cdn.media.ccc.de/events/camp2023/h264-hd/camp2023-57063-eng-WTF_DJI_UAV_CTF_hd.mp4) - Talk on DJI mini 2 reverse engeniering to bypass manufacturers limitations. Mem dump analysis and crypto keys decryption and radio analysis. About DJI ecosystem and used [open source components](https://www.dji.com/de/opensource) (cccamp23 by Felix Domke).
 * [Debugging Microcontrollers ](https://media.ccc.de/v/camp2023-57321-debugging_microcontrollers) - Talk on difficult debugging the PX4 hardware micocontrollers with RTOS NuttX  (cccamp23 by Niklas Hauser).
