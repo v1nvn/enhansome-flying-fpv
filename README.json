@@ -92,7 +92,7 @@
             "last_commit": "2025-09-17T04:37:09Z",
             "owner": "tbs-trappy",
             "repo": "source_one",
-            "stars": 608
+            "stars": 609
           }
         },
         {
@@ -177,7 +177,7 @@
             "last_commit": "2025-08-21T07:30:10Z",
             "owner": "bitdump",
             "repo": "BLHeli",
-            "stars": 2199
+            "stars": 2198
           }
         },
         {
@@ -258,7 +258,7 @@
             "last_commit": "2026-05-17T20:06:38Z",
             "owner": "betaflight",
             "repo": "betaflight",
-            "stars": 10967
+            "stars": 10973
           }
         },
         {
@@ -268,7 +268,7 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-05-18T00:58:14Z",
+            "last_commit": "2026-05-18T17:55:21Z",
             "owner": "emuflight",
             "repo": "EmuFlight",
             "stars": 493
@@ -364,7 +364,7 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-05-18T05:21:54Z",
+            "last_commit": "2026-05-19T00:14:39Z",
             "owner": "BossHobby",
             "repo": "QUICKSILVER",
             "stars": 216
@@ -393,7 +393,7 @@
             "last_commit": "2023-12-14T14:03:07Z",
             "owner": "librepilot",
             "repo": "LibrePilot",
-            "stars": 354
+            "stars": 355
           }
         },
         {
@@ -403,7 +403,7 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-03-15T16:01:21Z",
+            "last_commit": "2026-05-18T08:35:08Z",
             "owner": "qqqlab",
             "repo": "madflight",
             "stars": 432
@@ -419,7 +419,7 @@
             "last_commit": "2026-05-06T12:20:24Z",
             "owner": "proficnc",
             "repo": "The-Cube",
-            "stars": 157
+            "stars": 158
           }
         },
         {
@@ -440,10 +440,10 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-05-18T05:59:37Z",
+            "last_commit": "2026-05-18T10:41:45Z",
             "owner": "EdgeTX",
             "repo": "edgetx",
-            "stars": 2282
+            "stars": 2283
           }
         },
         {
@@ -627,7 +627,7 @@
               "repo_info": {
                 "archived": false,
                 "language": "C",
-                "last_commit": "2026-05-15T21:58:01Z",
+                "last_commit": "2026-05-19T04:53:08Z",
                 "owner": "ExpressLRS",
                 "repo": "ExpressLRS",
                 "stars": 4945
@@ -639,7 +639,7 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-05-15T21:58:01Z",
+            "last_commit": "2026-05-19T04:53:08Z",
             "owner": "ExpressLRS",
             "repo": "ExpressLRS",
             "stars": 4945
@@ -655,7 +655,7 @@
             "last_commit": "2026-05-09T05:26:27Z",
             "owner": "olliw42",
             "repo": "mLRS",
-            "stars": 564
+            "stars": 565
           }
         },
         {
@@ -777,7 +777,7 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-05-17T23:36:41Z",
+            "last_commit": "2026-05-18T15:02:05Z",
             "owner": "RomanLut",
             "repo": "hx-esp32-cam-fpv",
             "stars": 193
@@ -819,7 +819,7 @@
             "last_commit": "2024-04-04T08:42:31Z",
             "owner": "OpenVTx",
             "repo": "OpenVTx",
-            "stars": 474
+            "stars": 475
           }
         },
         {
@@ -851,7 +851,7 @@
             "last_commit": "2026-05-16T21:54:45Z",
             "owner": "gyroflow",
             "repo": "gyroflow",
-            "stars": 8768
+            "stars": 8776
           }
         },
         {
@@ -882,7 +882,7 @@
             "last_commit": "2026-05-13T01:45:18Z",
             "owner": "opentrack",
             "repo": "opentrack",
-            "stars": 4799
+            "stars": 4800
           }
         },
         {
@@ -1075,7 +1075,7 @@
             "last_commit": "2026-05-18T02:13:31Z",
             "owner": "mavlink",
             "repo": "mavlink",
-            "stars": 2278
+            "stars": 2281
           }
         },
         {
@@ -1184,7 +1184,7 @@
             "last_commit": "2026-05-07T00:06:27Z",
             "owner": "ArduPilot",
             "repo": "UAVLogViewer",
-            "stars": 234
+            "stars": 235
           }
         },
         {
@@ -1275,10 +1275,10 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-05-18T04:15:11Z",
+            "last_commit": "2026-05-18T21:40:46Z",
             "owner": "mavlink",
             "repo": "qgroundcontrol",
-            "stars": 4590
+            "stars": 4593
           }
         },
         {
@@ -1369,7 +1369,7 @@
             "last_commit": "2024-05-30T05:57:20Z",
             "owner": "dronekit",
             "repo": "dronekit-python",
-            "stars": 1892
+            "stars": 1894
           }
         }
       ],
@@ -1390,10 +1390,10 @@
           "repo_info": {
             "archived": false,
             "language": "Jupyter Notebook",
-            "last_commit": "2026-05-13T21:25:14Z",
+            "last_commit": "2026-05-18T16:48:30Z",
             "owner": "hotosm",
             "repo": "openaerialmap",
-            "stars": 295
+            "stars": 296
           }
         },
         {
@@ -1463,7 +1463,7 @@
             "last_commit": "2025-03-10T22:43:56Z",
             "owner": "mit-acl",
             "repo": "faster",
-            "stars": 1219
+            "stars": 1220
           }
         },
         {
@@ -1476,7 +1476,7 @@
             "last_commit": "2024-10-24T13:12:43Z",
             "owner": "HKUST-Aerial-Robotics",
             "repo": "Fast-Planner",
-            "stars": 3296
+            "stars": 3297
           }
         },
         {
@@ -1533,7 +1533,7 @@
             "last_commit": "2026-05-08T12:23:14Z",
             "owner": "Call-for-Code",
             "repo": "DroneAid",
-            "stars": 140
+            "stars": 141
           }
         },
         {
@@ -1606,7 +1606,7 @@
             "last_commit": "2026-03-15T23:17:10Z",
             "owner": "microsoft",
             "repo": "AirSim",
-            "stars": 18171
+            "stars": 18176
           }
         },
         {
@@ -1642,10 +1642,10 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-05-18T05:29:36Z",
+            "last_commit": "2026-05-19T02:36:55Z",
             "owner": "gazebosim",
             "repo": "gz-sim",
-            "stars": 1342
+            "stars": 1344
           }
         },
         {
@@ -1707,7 +1707,7 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-05-13T07:51:22Z",
+            "last_commit": "2026-05-19T04:01:25Z",
             "owner": "lyusupov",
             "repo": "SoftRF",
             "stars": 977
@@ -1733,7 +1733,7 @@
             "last_commit": "2026-04-18T01:39:58Z",
             "owner": "stratux",
             "repo": "stratux",
-            "stars": 287
+            "stars": 289
           }
         },
         {
@@ -1793,10 +1793,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-04-13T12:21:54Z",
+            "last_commit": "2026-05-18T07:20:02Z",
             "owner": "cyber-defence-campus",
             "repo": "RemoteIDReceiver",
-            "stars": 268
+            "stars": 269
           }
         },
         {
@@ -1814,7 +1814,7 @@
             "last_commit": "2023-03-10T12:58:04Z",
             "owner": "RUB-SysSec",
             "repo": "DroneSecurity",
-            "stars": 1266
+            "stars": 1267
           }
         },
         {
@@ -1944,7 +1944,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-18T06:17:18.088Z",
+    "last_updated": "2026-05-19T06:11:04.444Z",
     "original_repository": "Matthias84/awesome-flying-fpv",
     "source_repository": "v1nvn/enhansome-flying-fpv",
     "source_repository_description": null,
